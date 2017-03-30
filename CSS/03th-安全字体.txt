@@ -1,0 +1,13 @@
+1、安全字体		http://www.cssfontstack.com/ 安全字体统计情况
+2、自定义字体		https://fonts.google.com/在谷歌中寻找下载
+	(1)<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	(2)<style>
+	@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+	</style>
+	(3)下载下来，导入本地字体
+	@font-face {
+		font-family:"NotoSans-Regular";
+		src:url("../fonts/NotoSans-Regular.ttf")
+	}
+
+3.字体堆栈font stack	按顺序检测字体，起到备用字体作用

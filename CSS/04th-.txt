@@ -1,0 +1,16 @@
+行高  垂直  外边距
+会使用chrome浏览器中F12，中的右下角图 ，有减号“-”表示没有该属性。谷歌浏览器做前端。。火狐做服务器
+-webkit-谷歌前缀
+谷歌中
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;  top
+    -webkit-margin-end: 0px; bottom
+可查看元素本身高度和外边距。
+(1) 蓝色是内容
+(2) 橙色是margin外部间距
+在线框图中选择
+
+line-height 文字每行的高度
+都有间距
+1.618，就是5phi

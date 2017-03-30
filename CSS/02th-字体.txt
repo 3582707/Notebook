@@ -1,0 +1,15 @@
+	font-family: arial,sans-serif;
+	/*arial必须要有，为字体安全：微软雅黑，
+	万能字体sans-serifNoto Sans Sc
+	按默认顺序，知道默认自带字体
+	*/
+	font-size: 1.125rem;
+	font-weight: bold;/*normal400默认，bold700,最小100*/
+	font-style: italic;
+
+	/*em,rem
+rem:随屏幕变化而变化;
+*/
+
+
+林霖老师的hithub/*https://github.com/linchong899201/CSS-*/
