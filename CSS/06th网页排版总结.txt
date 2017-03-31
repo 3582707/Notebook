@@ -1,0 +1,55 @@
+网页排版总结1-5
+typegraphy css bootstrap
+
+getbootstrap.com--所有文字的排版
+
+
+、、
+1.body  
+font-family: "微软雅黑",arial,"Helvetica Neue",Helvetica,sans-serif;//必须有
+	line-height: 1.618;//必须有
+	font-size: 1.125rem;
+
+
+2。
+/*h1-h6*/
+h1,h2,h3,h4,h5,h6{
+	/*margin:0px;
+	line-height: normal;*//*系统默认*/
+}
+h1{
+	font-weight: 900;
+	font-size: 3.3rem;
+	line-height: 1.35;
+	margin:0.8em 0;
+}
+h2{
+	font-weight: 800;
+	font-size: 2.3rem;
+	line-height: 1.45;
+	margin:1em 0 ;
+}
+h3{
+	font-weight: 700;
+	font-size: 1.85rem;
+	line-height: 1.6;
+	margin:1.5em 0 ;
+}
+h4{
+	font-weight: 600;
+	font-size: 1.55rem;
+	line-height: 1.7;
+	margin:1.6em 0 ;
+}
+h5{
+	font-weight: 600;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	margin:1.6em 0 ;
+}
+h6{
+	font-weight: 500;
+	font-size: 1.25rem;
+	line-height: 1.6;
+	margin:1.6em 0;
+}

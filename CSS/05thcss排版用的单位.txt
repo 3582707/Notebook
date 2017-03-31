@@ -1,0 +1,22 @@
+1.设置排版的font-size和line-height时,可以使用px，em，rem
+chrome://settings/fonts谷歌浏览器设置默认字体
+=======================
+rem由html浏览器默认设置决定
+px是固定不变的
+em由div中所有的元素大小决定（所有div元素高度,也就是层数）,计算方法：实际像素=浏览器默认字体像素×元素本身所设的em值×父类元素所设的em值(或者rem值)×......//也就是说：只要本身的单位是em，就要被上级em或rem影响。
+
+2.也可以没有单位，没有单位的情况？？？
+
+
+3.vw/vh 响应式 responsive自动适配
+vw（viewport width）：随屏幕变化而变化
+Viewport units: vw, vh, vmin, vmax - CR
+Length units representing 1% of the viewport size for viewport width (vw), height (vh), the smaller of the two (vmin), or the larger of the two (vmax).
+
+Global
+77.43%	+	6.64%	=	84.07%
+
+
+======================
+图片自适应max-width:100%  width:100%;height:auto;
+表格自适应
